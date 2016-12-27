@@ -5,9 +5,14 @@
         {
             "name": "Dennis Kuijpers",
             "email": "darkknightworks@gmail.com"
+        },
+        {
+            "license": "MIT"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=5.*.*"
+    },
     "extra": {
         "branch-alias": {
             "dev-master": "1.0.x-dev"
