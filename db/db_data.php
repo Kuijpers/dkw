@@ -7,7 +7,7 @@
  * @author Dennis Kuijpers
  */
 
-namespace vendor\kuijpers\dkw\db;
+namespace kuijpers\dkw\db;
 
 
 class DB_data
