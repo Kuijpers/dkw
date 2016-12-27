@@ -17,7 +17,7 @@ class DB_data
      }
 
     public static function test(){
-        echo "Dit is een testje vanuit db_data";
+        echo "Dit is een testje vanuit de db_data class";
     }
 
 
