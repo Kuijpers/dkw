@@ -1,13 +1,11 @@
 {
     "name": "kuijpers/dkw",
+    "license": "MIT",
     "description": "personal classes",
     "authors": [
         {
             "name": "Dennis Kuijpers",
             "email": "darkknightworks@gmail.com"
-        },
-        {
-            "license": "MIT"
         }
     ],
     "require": {

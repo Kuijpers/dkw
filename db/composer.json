@@ -1,14 +1,12 @@
 {
     "name": "kuijpers/db",
+    "license": "MIT",
     "description": "db classes",
     "authors": [
         {
             "name": "Dennis Kuijpers",
             "email": "darkknightworks@gmail.com"
         },
-        {
-            "license": "MIT"
-        }
     ],
     "require": {
         "php": ">=5.4.0"
