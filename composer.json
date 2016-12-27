@@ -1,7 +1,9 @@
 {
     "name": "kuijpers/dkw",
-    "license": "MIT",
+    "type": "library",
     "description": "personal classes",
+    "homepage": "https://github.com/kuijpers/dkw",
+    "license": "MIT",
     "authors": [
         {
             "name": "Dennis Kuijpers",
