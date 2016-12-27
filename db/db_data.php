@@ -4,16 +4,22 @@
  * User: Web
  * Date: 16-12-2016
  * Time: 10:51
+ * @author Dennis Kuijpers
  */
 
 namespace vendor\dkw\db;
 
 
-class db_data
+class DB_data
 {
      public function __construct(){
 
      }
+
+    public static function test(){
+        echo "Dit is een testje vanuit db_data";
+    }
+
 
     /**
      *
@@ -29,7 +35,6 @@ class db_data
      *
      * @return string This is the string that contains the values of the array with the connector between the values
      */
-
     public static function db_entry_create($data = [], $connector= "+") {
         // We start with an empty array
         $connected_data_from_array = "";
@@ -51,6 +56,31 @@ class db_data
         }
         // We finished creating our string and now send it back
         return $connected_data_from_array;
+    }
+
+    /**
+     *
+     * Breakdown string to array with supplied data and connector / separator
+     *
+     * @author Dennis Kuijpers
+     * @since 2016-12-16
+     *
+     * @param string $data Data in string format supplied
+     * @param string $connector Connector in string format supplied
+     *
+     * @return array|bool If supplied information is in string format return the array else return false
+     */
+
+    public static function db_entry_breakup($data = "", $connector= "+"){
+        // First check if the supplied data and connector are in a string format
+        if(is_string($data) && is_string($connector)){
+            // explode the string on the supplied connector
+            $returning_array = explode($connector, $data);
+        }else{
+            // If supplied data or connector is not in a string format
+            return FALSE;
+        }
+        return $returning_array;
     }
 
 }
