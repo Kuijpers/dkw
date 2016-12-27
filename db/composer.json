@@ -1,0 +1,11 @@
+{
+    "name": "kuijpers/db",
+    "description": "db classes",
+    "authors": [
+        {
+            "name": "Dennis Kuijpers",
+            "email": "darkknightworks@gmail.com"
+        }
+    ],
+    "require": {}
+}

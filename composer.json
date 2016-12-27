@@ -1,0 +1,15 @@
+{
+    "name": "Kuijpers/dkw",
+    "description": "personal classes",
+    "authors": [
+        {
+            "name": "Dennis Kuijpers",
+            "email": "darkknightworks@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "db_data\\": "db/"
+        }
+}
